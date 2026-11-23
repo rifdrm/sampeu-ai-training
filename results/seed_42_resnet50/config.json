@@ -1,0 +1,27 @@
+{
+  "model": "resnet50",
+  "seed": 42,
+  "img_size": 224,
+  "batch_size": 32,
+  "phase1_lr": 0.001,
+  "phase2_lr": 0.0001,
+  "phase1_max_epochs": 10,
+  "phase2_max_epochs": 20,
+  "patience": 3,
+  "optimizer": "adam",
+  "class_names": [
+    "CBB",
+    "CBSD",
+    "CGM",
+    "CMD",
+    "Healthy"
+  ],
+  "class_weight": {
+    "0": 3.9363994743758215,
+    "1": 1.9553524804177547,
+    "2": 1.7937724550898204,
+    "3": 0.3252198458364998,
+    "4": 1.6605321507760533
+  },
+  "manifest_sha256": "aac30db60c0f6172776a39d2077a9dba4e1377f6036c5bd8f510aee9b96f4b48"
+}

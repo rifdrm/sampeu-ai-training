@@ -1,0 +1,8 @@
+{
+  "model": "mobilenetv2",
+  "seed": 42,
+  "val_accuracy": 0.7707165109034267,
+  "val_macro_f1": 0.666393253312908,
+  "val_samples": 3210,
+  "checkpoint": "model_best.keras"
+}

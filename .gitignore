@@ -1,0 +1,9 @@
+*.keras
+*.zip
+*.pdf
+*.docx
+Dataset/Audit_Cassava/
+Dataset/Foto_Lokal/
+__pycache__/
+.ipynb_checkpoints/
+.kaggle/

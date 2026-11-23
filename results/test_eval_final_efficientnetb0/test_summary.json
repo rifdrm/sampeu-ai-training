@@ -1,0 +1,155 @@
+{
+  "model": "efficientnetb0",
+  "test_accuracy": {
+    "mean": 0.7915238392022438,
+    "std": 0.014523128947000336
+  },
+  "test_macro_f1": {
+    "mean": 0.6863605115723902,
+    "std": 0.008632008312833655
+  },
+  "recall_per_class": {
+    "CBB": {
+      "mean": 0.6666666666666666,
+      "std": 0.012770957051939452
+    },
+    "CBSD": {
+      "mean": 0.6990881458966566,
+      "std": 0.043092543704431115
+    },
+    "CGM": {
+      "mean": 0.6713221601489758,
+      "std": 0.05644485871965615
+    },
+    "CMD": {
+      "mean": 0.8504815002534212,
+      "std": 0.02287538590247693
+    },
+    "Healthy": {
+      "mean": 0.7331606217616581,
+      "std": 0.08114227856666227
+    }
+  },
+  "per_seed": [
+    {
+      "model": "efficientnetb0",
+      "seed": 42,
+      "test_accuracy": 0.7871611093798692,
+      "test_macro_f1": 0.6847846549943355,
+      "test_samples": 3209,
+      "per_class": {
+        "CBB": {
+          "precision": 0.5091743119266054,
+          "recall": 0.6809815950920245,
+          "f1": 0.5826771653543307,
+          "support": 163
+        },
+        "CBSD": {
+          "precision": 0.6032171581769437,
+          "recall": 0.6838905775075987,
+          "f1": 0.6410256410256411,
+          "support": 329
+        },
+        "CGM": {
+          "precision": 0.7074626865671642,
+          "recall": 0.6620111731843575,
+          "f1": 0.683982683982684,
+          "support": 358
+        },
+        "CMD": {
+          "precision": 0.9735294117647059,
+          "recall": 0.8388241256969082,
+          "f1": 0.9011707051456574,
+          "support": 1973
+        },
+        "Healthy": {
+          "precision": 0.5111492281303602,
+          "recall": 0.772020725388601,
+          "f1": 0.6150670794633643,
+          "support": 386
+        }
+      },
+      "checkpoint": "/kaggle/input/datasets/wandarix/efficientnetb0-ckpt-3seed/seed_42/model_best.keras"
+    },
+    {
+      "model": "efficientnetb0",
+      "seed": 123,
+      "test_accuracy": 0.8077282642567778,
+      "test_macro_f1": 0.6956718825078416,
+      "test_samples": 3209,
+      "per_class": {
+        "CBB": {
+          "precision": 0.5023474178403756,
+          "recall": 0.656441717791411,
+          "f1": 0.5691489361702128,
+          "support": 163
+        },
+        "CBSD": {
+          "precision": 0.6212121212121212,
+          "recall": 0.7477203647416414,
+          "f1": 0.6786206896551724,
+          "support": 329
+        },
+        "CGM": {
+          "precision": 0.6582914572864321,
+          "recall": 0.7318435754189944,
+          "f1": 0.6931216931216931,
+          "support": 358
+        },
+        "CMD": {
+          "precision": 0.9675615212527964,
+          "recall": 0.8768373035985808,
+          "f1": 0.9199680935921297,
+          "support": 1973
+        },
+        "Healthy": {
+          "precision": 0.5966183574879227,
+          "recall": 0.6398963730569949,
+          "f1": 0.6175,
+          "support": 386
+        }
+      },
+      "checkpoint": "/kaggle/input/datasets/wandarix/efficientnetb0-ckpt-3seed/seed_123/model_best.keras"
+    },
+    {
+      "model": "efficientnetb0",
+      "seed": 2026,
+      "test_accuracy": 0.7796821439700842,
+      "test_macro_f1": 0.6786249972149935,
+      "test_samples": 3209,
+      "per_class": {
+        "CBB": {
+          "precision": 0.5320197044334976,
+          "recall": 0.6625766871165644,
+          "f1": 0.5901639344262295,
+          "support": 163
+        },
+        "CBSD": {
+          "precision": 0.6616314199395771,
+          "recall": 0.6656534954407295,
+          "f1": 0.6636363636363637,
+          "support": 329
+        },
+        "CGM": {
+          "precision": 0.7070063694267515,
+          "recall": 0.6201117318435754,
+          "f1": 0.6607142857142857,
+          "support": 358
+        },
+        "CMD": {
+          "precision": 0.97,
+          "recall": 0.8357830714647745,
+          "f1": 0.8979036210182412,
+          "support": 1973
+        },
+        "Healthy": {
+          "precision": 0.4599092284417549,
+          "recall": 0.7875647668393783,
+          "f1": 0.5807067812798472,
+          "support": 386
+        }
+      },
+      "checkpoint": "/kaggle/input/datasets/wandarix/efficientnetb0-ckpt-3seed/seed_2026/model_best.keras"
+    }
+  ]
+}

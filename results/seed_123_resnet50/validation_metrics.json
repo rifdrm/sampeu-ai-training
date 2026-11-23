@@ -1,0 +1,8 @@
+{
+  "model": "resnet50",
+  "seed": 123,
+  "val_accuracy": 0.7386292834890966,
+  "val_macro_f1": 0.6250289996721391,
+  "val_samples": 3210,
+  "checkpoint": "model_best.keras"
+}

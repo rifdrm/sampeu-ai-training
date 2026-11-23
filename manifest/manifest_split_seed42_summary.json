@@ -1,0 +1,54 @@
+{
+  "source": "audit_cassava/image_audit.csv",
+  "method": "Per-class shuffle with Python random.Random(42); 70% train, round(15% validation), remainder test.",
+  "split_seed": 42,
+  "training_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "total": 21397,
+  "split_counts": {
+    "train": 14978,
+    "validation": 3210,
+    "test": 3209
+  },
+  "split_fractions": {
+    "train": 0.700005,
+    "validation": 0.150021,
+    "test": 0.149974
+  },
+  "class_counts": {
+    "0": {
+      "total": 1087,
+      "train": 761,
+      "validation": 163,
+      "test": 163
+    },
+    "1": {
+      "total": 2189,
+      "train": 1532,
+      "validation": 328,
+      "test": 329
+    },
+    "2": {
+      "total": 2386,
+      "train": 1670,
+      "validation": 358,
+      "test": 358
+    },
+    "3": {
+      "total": 13158,
+      "train": 9211,
+      "validation": 1974,
+      "test": 1973
+    },
+    "4": {
+      "total": 2577,
+      "train": 1804,
+      "validation": 387,
+      "test": 386
+    }
+  },
+  "test_set_note": "Internal held-out stratified split of labeled train_images only. Kaggle competition test_images/test_tfrecords are not included."
+}

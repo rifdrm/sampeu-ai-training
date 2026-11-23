@@ -1,0 +1,8 @@
+{
+  "model": "efficientnetb0",
+  "seed": 123,
+  "val_accuracy": 0.8018691588785046,
+  "val_macro_f1": 0.6839180052272074,
+  "val_samples": 3210,
+  "checkpoint": "model_best.keras"
+}
